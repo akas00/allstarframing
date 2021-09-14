@@ -1,0 +1,63 @@
+.main-background {
+  background: #edf1f5;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.main-background h2 {
+  padding-bottom: 20px;
+}
+
+.form {
+  text-align: left !important;
+}
+.form-control {
+  text-align: left !important;
+}
+.form .form-group {
+  margin-bottom: 20px;
+}
+.frame-image {
+  height: 400px;
+}
+.btn {
+  margin-top: 30px;
+}
+
+.halfwidth {
+  width: 50%;
+}
+fieldset input {
+  width: 20%;
+}
+fieldset label {
+  padding: 20px;
+}
+.frame-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.buttonupload {
+  text-align: center;
+}
+.thumbnail {
+  width: 100%;
+}
+.thumbnail-content {
+  display: flex;
+}
+.thumbnail-content img {
+  flex: 0 0 15%;
+  margin-right: 20px;
+  width: 71.8px;
+  height: 38px;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .col-md-6.frame-img {
+    order: 1;
+  }
+  .frame-contents {
+    order: 2;
+  }
+}
